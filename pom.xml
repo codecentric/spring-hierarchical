@@ -12,7 +12,6 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<junit.version>4.4</junit.version>
 		<spring.version>3.2.4.RELEASE</spring.version>
-		<vaadin.version>7.1.9</vaadin.version>
 	</properties>
 
 	<dependencies>
@@ -38,11 +37,6 @@
 			<artifactId>spring-context</artifactId>
 			<groupId>org.springframework</groupId>
 			<version>${spring.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>com.vaadin</groupId>
-			<artifactId>vaadin-server</artifactId>
-			<version>${vaadin.version}</version>
 		</dependency>
 	</dependencies>
 </project>
